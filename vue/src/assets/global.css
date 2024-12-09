@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*把所有的元素变成盒状模型*/
+*{
+    /*外边距不会额外占用1px的像素*/
+    box-sizing: border-box;
+}
+
+.el-radio input[aria-hidden="true"] {
+    display: none !important;
+  }
+  
+.el-radio:focus:not(.is-focus):not(:active):not(.is-disabled) .el-radio__inner {
+    box-shadow: none !important;
+  }
+
+.background{
+    background: linear-gradient(to top, #569bfb, #ffffff);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
